@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="zdotaccent" format="2">
+  <advance width="673"/>
+  <unicode hex="017C"/>
+  <outline>
+    <component base="uni0307" xOffset="265.5" yOffset="-216"/>
+    <component base="z" yOffset="-2"/>
+  </outline>
+</glyph>
