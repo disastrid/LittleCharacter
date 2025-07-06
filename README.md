@@ -10,7 +10,7 @@ If you are the Lisa who worked on this font in 1986, or know who Lisa is, please
 
 ## Update notes
 
-June 2025: Complete extended character set added.
+July 6 2025: Complete extended character set added.
 
 ## Thanks
 
