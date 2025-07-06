@@ -1,0 +1,50 @@
+
+
+@GDEF_Simple = [\.null \nonmarkingreturn \space \exclam \quotedbl \numbersign 
+	\dollar \percent \ampersand \quotesingle \parenleft \parenright \asterisk \plus 
+	\comma \hyphen \period \slash \zero \one \two \three \four \five \six \seven \eight 
+	\nine \colon \semicolon \less \equal \greater \question \at \A \B \C \D \E \F \G \H \I \J 
+	\K \L \M \N \O \P \Q \R \S \T \U \V \W \X \Y \Z \bracketleft \backslash \bracketright 
+	\asciicircum \underscore \grave \a \b \c \d \e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u 
+	\v \w \x \y \z \braceleft \bar \braceright \asciitilde \exclamdown \cent \sterling 
+	\yen \section \copyright \guillemotleft \registered \macron \plusminus \acute 
+	\paragraph \cedilla \guillemotright \questiondown \Agrave \Aacute \Acircumflex 
+	\Atilde \Adieresis \Aring \AE \Ccedilla \Egrave \Eacute \Ecircumflex \Edieresis 
+	\Igrave \Iacute \Icircumflex \Idieresis \Eth \Ntilde \Ograve \Oacute 
+	\Ocircumflex \Otilde \Odieresis \multiply \Oslash \Ugrave \Uacute \Ucircumflex 
+	\Udieresis \Yacute \Thorn \germandbls \agrave \aacute \acircumflex \atilde 
+	\adieresis \aring \ae \ccedilla \egrave \eacute \ecircumflex \edieresis \igrave 
+	\iacute \icircumflex \idieresis \eth \ntilde \ograve \oacute \ocircumflex 
+	\otilde \odieresis \divide \oslash \ugrave \uacute \ucircumflex \udieresis 
+	\yacute \thorn \ydieresis \uni013C \gravecomb \uni0302 \acutecomb \uni0308 
+	\tildecomb \uni0327 \dotlessi \ring \uni030A \cacute \Cacute \Ccircumflex 
+	\ccircumflex \gcircumflex \Nacute \Gcircumflex \Jcircumflex \Scircumflex 
+	\scircumflex \uring \Uhungarumlaut \Ycircumflex \ycircumflex \Ydieresis 
+	\Wcircumflex \wcircumflex \Zacute \zacute \uni0307 \Gdotaccent \gdotaccent 
+	\nacute \Sacute \sacute \Cdotaccent \cdotaccent \edotaccent \Edotaccent 
+	\amacron \Racute \racute \caron \Ccaron \uni030C \Ebreve \ebreve \Ecaron \ecaron 
+	\Gbreve \Hcircumflex \Itilde \itilde \Scaron \Rcaron \rcaron \scaron \Tcaron 
+	\Utilde \utilde \Zdotaccent \zdotaccent \Zcaron \zcaron \ccaron \Dcaron \Ldot 
+	\uni0306 \gbreve \Ncaron \ncaron \Uring \ubreve \Ubreve \Abreve \abreve 
+	\Idotaccent \jcircumflex \uni0237 \Lacute \lacute \Obreve \Ibreve \ibreve 
+	\iogonek \ij \IJ \obreve \uni0123 \hcircumflex \uni0328 \aogonek \Aogonek 
+	\uni0137 \uni0145 \Iogonek \uni0122 \uni0326 \uni0136 \Eogonek \eogonek \uni013B 
+	\uni0146 \Scedilla \scedilla \uni0162 \uni0163 \tcaron \Uogonek \uogonek 
+	\napostrophe \uni0156 \uni0157 \uhungarumlaut \uni030B \Ohungarumlaut 
+	\ohungarumlaut \uni0304 \Amacron \emacron \Emacron \Imacron \imacron \Omacron 
+	\omacron \Umacron \umacron \uni0335 \hbar \uni0336 \dcroat \Hbar \Dcroat \Tbar 
+	\tbar \OE \dcaron \ldot \trademark \oe \Lcaron \lcaron \Lslash \lslash \Euro 
+	\uni01D2 \uni01D1 \uni01D3 \uni01D4 \uni01CD \uni01CE \uni01CF \uni01D0 \Gcaron 
+	\gcaron \uni01E8 \uni01E9 \uni01EA \uni01EB \uni01F0 \uni01F4 \uni01F5 \uni01F8 
+	\uni01F9 \uni0218 \uni0219 \Wacute \wacute \Wdieresis \wdieresis \Wgrave \wgrave 
+	\Ygrave \ygrave \periodcentered \dieresis \circumflex \breve \ogonek \minus 
+	\ordfeminine \ordmasculine \degree \uni00A0 \ellipsis \emdash \endash 
+	\quotedblbase \uni201F \quotedblright \quotedblleft \quotesinglbase 
+	\quoteright \quotereversed \quoteleft \dotaccent \hungarumlaut \bullet 
+	\guilsinglleft \guilsinglright ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple, , , ;
+
+} GDEF;
+
