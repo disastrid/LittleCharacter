@@ -1,6 +1,8 @@
 # Little Character
 
-Little Character is a font made in tribute to LITT.CHR, a font developed by Philippe Khan and a graphic designer called Lisa at the Borland Software Corporation in 1986 and was the default font in Eagle from 1988 until 2017. Listen to the story of this font here: https://www.hyperfixedpod.com/listen/hyperfixed/little-by-little 
+# [Just want the font? Click here to download it!](https://github.com/disastrid/LittleCharacter/raw/refs/heads/main/LittleCharacterRegular.ttf)
+
+Little Character is a font made in tribute to LITT.CHR, a font developed by Philippe Khan and a graphic designer called Lisa at the Borland Software Corporation in 1986 and was the default font in Eagle from 1988 until 2017. [Listen to a podcast that tells the whole story here](https://www.hyperfixedpod.com/listen/hyperfixed/little-by-little).
 
 [![Preview of the LittleCharacter font](preview.png)](preview.png)
 
