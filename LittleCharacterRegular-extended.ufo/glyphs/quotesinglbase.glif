@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="quotesinglbase" format="2">
   <advance width="240"/>
   <unicode hex="201A"/>
   <outline>
     <contour>
-      <point x="145.642" y="0.0195312" type="line"/>
-      <point x="120.684" y="0.0195312" type="line" smooth="yes"/>
+      <point x="145.642" y="0.01953" type="line"/>
+      <point x="120.684" y="0.01953" type="line" smooth="yes"/>
       <point x="109.937" y="0"/>
       <point x="102.798" y="7.41895" type="qcurve" smooth="yes"/>
       <point x="95.3652" y="14.5869"/>

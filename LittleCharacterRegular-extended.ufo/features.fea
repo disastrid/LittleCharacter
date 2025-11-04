@@ -1,6 +1,5 @@
-
-
-@GDEF_Simple = [\.null \nonmarkingreturn \space \exclam \quotedbl \numbersign 
+# Prefix: Prefix
+@GDEF_Simple = [ \nonmarkingreturn \space \exclam \quotedbl \numbersign 
 	\dollar \percent \ampersand \quotesingle \parenleft \parenright \asterisk \plus 
 	\comma \hyphen \period \slash \zero \one \two \three \four \five \six \seven \eight 
 	\nine \colon \semicolon \less \equal \greater \question \at \A \B \C \D \E \F \G \H \I \J 
@@ -47,4 +46,33 @@ table GDEF {
   GlyphClassDef @GDEF_Simple, , , ;
 
 } GDEF;
+
+# Prefix: Languagesystems
+# automatic
+languagesystem DFLT dflt;
+
+languagesystem latn dflt;
+languagesystem latn CAT;
+
+feature aalt {
+# automatic
+feature locl;
+feature ordn;
+} aalt;
+
+feature locl {
+# automatic
+script latn;
+language CAT;
+lookup locl_latn_0 {
+	sub l periodcentered l by l_periodcentered_l.loclCAT;
+	sub L periodcentered L by L_periodcentered_L.loclCAT;
+} locl_latn_0;
+} locl;
+
+feature ordn {
+# automatic
+sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
+sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
+} ordn;
 
